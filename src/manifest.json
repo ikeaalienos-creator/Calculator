@@ -1,0 +1,10 @@
+{
+  "package": "com.watch5lite.calculator",
+  "name": "Kalkulator",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minPlatformVersion": 1,
+  "router": {
+    "entry": "pages/index"
+  }
+}

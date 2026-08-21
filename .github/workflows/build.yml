@@ -25,9 +25,9 @@ jobs:
       - name: Build RPK
         run: npm run build
 
-      - name: Show output
-        run: |
-          find . -type f -name "*.rpk" -print
+      - name: Show output- name: Show output
+  run: |
+    find . -type f -print
       - name: Upload RPK
         uses: actions/upload-artifact@v4
         with:

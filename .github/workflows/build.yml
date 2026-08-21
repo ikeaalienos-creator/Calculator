@@ -28,3 +28,8 @@ jobs:
       - name: Show output
         run: |
           find . -type f -name "*.rpk" -print
+      - name: Upload RPK
+        uses: actions/upload-artifact@v4
+        with:
+          name: calculator-rpk
+          path: "**/*.rpk"

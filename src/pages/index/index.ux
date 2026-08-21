@@ -1,0 +1,28 @@
+<template>
+  <div class="page">
+    <text class="title">Kalkulator</text>
+    <text class="number">0</text>
+  </div>
+</template>
+
+<style>
+.page {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.number {
+  font-size: 50px;
+  margin-top: 20px;
+}
+</style>
+
+<script>
+export default {
+}
+</script>

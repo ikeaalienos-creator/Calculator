@@ -5,6 +5,8 @@
   "versionCode": 1,
   "minPlatformVersion": 1,
   "router": {
-    "entry": "pages/index"
+    "pages": [
+      "pages/index"
+    ]
   }
 }
